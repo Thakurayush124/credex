@@ -2,8 +2,6 @@
 
 A responsive, single-page marketing website for a fictional software resale startup built with React, TypeScript, and Tailwind CSS.
 
-![SoftSell Screenshot](screenshot.png)
-
 ## Features Implemented
 
 - Modern, responsive UI built with React and Tailwind CSS
@@ -71,11 +69,11 @@ yarn install
 To run the application in development mode with hot-reload:
 
 ```bash
-npm start
+npm run dev
 ```
 or
 ```bash
-yarn start
+yarn run dev
 ```
 
 The application will be available at [http://localhost:3000](http://localhost:3000).
@@ -148,6 +146,3 @@ softsell/
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
