@@ -45,3 +45,65 @@ A responsive, single-page marketing website for a fictional software resale star
 - Styling and animations: 2 hours
 - Testing and refinements: 1 hour
 - Total: 7 hours
+
+  Tech Stack
+
+React 18
+TypeScript
+Tailwind CSS
+Lucide React Icons
+
+Installation
+
+Clone the repository:
+
+bashgit clone https://github.com/yourusername/softsell.git
+cd softsell
+
+Install dependencies:
+
+bashnpm install
+or if you prefer yarn:
+bashyarn install
+Running the Application
+Development Mode
+To run the application in development mode with hot-reload:
+bashnpm start
+or
+bashyarn start
+The application will be available at http://localhost:3000.
+Building for Production
+To create an optimized production build:
+bashnpm run build
+or
+bashyarn build
+The build artifacts will be stored in the build/ directory.
+Serving the Production Build
+To serve the production build locally:
+bashnpm install -g serve
+serve -s build
+Project Structure
+softsell/
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   └── logo.png
+├── src/
+│   ├── components/
+│   │   ├── Navbar.tsx
+│   │   ├── HeroSection.tsx
+│   │   ├── HowItWorks.tsx
+│   │   ├── WhyChooseUs.tsx
+│   │   ├── LicenseUpload.tsx
+│   │   ├── Testimonials.tsx
+│   │   ├── ContactForm.tsx
+│   │   ├── Footer.tsx
+│   │   └── ChatWidget.tsx
+│   ├── App.tsx
+│   ├── index.tsx
+│   └── styles/
+│       └── tailwind.css
+├── package.json
+├── tsconfig.json
+├── tailwind.config.js
+└── README.md
