@@ -1,10 +1,12 @@
 # SoftSell - Software License Resale Platform
 
-A responsive, single-page marketing website for a fictional software resale startup.
+A responsive, single-page marketing website for a fictional software resale startup built with React, TypeScript, and Tailwind CSS.
+
+![SoftSell Screenshot](screenshot.png)
 
 ## Features Implemented
 
-- Modern, responsive UI built with React + Vite and Tailwind CSS
+- Modern, responsive UI built with React and Tailwind CSS
 - Interactive components with subtle animations (scroll reveals, hover effects)
 - Form validation for the lead capture form
 - Fully responsive design for mobile, tablet, and desktop
@@ -38,51 +40,72 @@ A responsive, single-page marketing website for a fictional software resale star
 - Custom utility classes for consistent styling
 - Responsive design using Tailwind breakpoints
 
-## Time Spent
+## Tech Stack
 
-- Planning and design: 1 hour
-- Component implementation: 3 hours
-- Styling and animations: 2 hours
-- Testing and refinements: 1 hour
-- Total: 7 hours
+- React 18
+- TypeScript
+- Tailwind CSS
+- Lucide React Icons
 
-  Tech Stack
+## Installation
 
-React 18
-TypeScript
-Tailwind CSS
-Lucide React Icons
-
-Installation
-
-Clone the repository:
-
-bashgit clone https://github.com/yourusername/softsell.git
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/softsell.git
 cd softsell
+```
 
-Install dependencies:
-
-bashnpm install
+2. Install dependencies:
+```bash
+npm install
+```
 or if you prefer yarn:
-bashyarn install
-Running the Application
-Development Mode
+```bash
+yarn install
+```
+
+## Running the Application
+
+### Development Mode
+
 To run the application in development mode with hot-reload:
-bashnpm start
+
+```bash
+npm start
+```
 or
-bashyarn start
-The application will be available at http://localhost:3000.
-Building for Production
+```bash
+yarn start
+```
+
+The application will be available at [http://localhost:3000](http://localhost:3000).
+
+### Building for Production
+
 To create an optimized production build:
-bashnpm run build
+
+```bash
+npm run build
+```
 or
-bashyarn build
-The build artifacts will be stored in the build/ directory.
-Serving the Production Build
+```bash
+yarn build
+```
+
+The build artifacts will be stored in the `build/` directory.
+
+### Serving the Production Build
+
 To serve the production build locally:
-bashnpm install -g serve
+
+```bash
+npm install -g serve
 serve -s build
-Project Structure
+```
+
+## Project Structure
+
+```
 softsell/
 ├── public/
 │   ├── index.html
@@ -107,3 +130,24 @@ softsell/
 ├── tsconfig.json
 ├── tailwind.config.js
 └── README.md
+```
+
+## Time Spent
+
+- Planning and design: 1 hour
+- Component implementation: 3 hours
+- Styling and animations: 2 hours
+- Testing and refinements: 1 hour
+- Total: 7 hours
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
